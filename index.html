@@ -12,27 +12,73 @@
   <body>
     <section class="page-header">
       <h1 class="project-name">UFVR Project One</h1>
-      <h2 class="project-tagline">Mars exploration scene built using Unity3D.</h2>
+      <h2 class="project-tagline">Moon exploration scene built using Unity3D.</h2>
       <a href="https://github.com/brettbelliveau/UFVR-Project-1" class="btn">View on GitHub</a>
       <a href="https://github.com/brettbelliveau/UFVR-Project-1/zipball/master" class="btn">Download .zip</a>
       <a href="https://github.com/brettbelliveau/UFVR-Project-1/tarball/master" class="btn">Download .tar.gz</a>
     </section>
 
     <section class="main-content">
-      <h3>
-<a id="project-description-and-motivation" class="anchor" href="#project-description-and-motivation" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Project Description and Motivation</h3>
+      <h2>
+<a id="project-description-and-motivation" class="anchor" href="#project-description-and-motivation" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Project Description and Motivation</h2>
 
-<p>Here's what this project is and why we picked this project (TODO)</p>
-
-<h3>
-<a id="technical-breakdown" class="anchor" href="#technical-breakdown" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Technical Breakdown</h3>
-
-<p>Here are all the technical components of the project (TODO)</p>
+<p>Our project was inspired by the SpaceVR project. SpaceVR is "the world’s first virtual reality platform allowing users to be an astronaut and experience space firsthand." Our project is just that, but with a focus on moon exploration. We wanted to simulate a full moon landing experience, with some futuristic elements. In this setting, the user is the leader of a nine-ship squad traveling to the moon. The experience is broken down into two scenes: the Moon Orbit scene and the Moon Landing Scene.</p>
 
 <h4>
-<a id="links" class="anchor" href="#links" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Links</h4>
+<a id="moon-orbit-scene-brett" class="anchor" href="#moon-orbit-scene-brett" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Moon Orbit Scene (Brett)</h4>
 
-<p>Here is the video link for our project (TODO) </p>
+<p>This scene is the prelude to the moon landing. The user is hovering, along with eight other squad members, in the Moon's orbit. Visible in all 360 degrees is a rotating asteroid field, and a belt of small, spinning asteroids are wrapped around the moon (this is the future!). On the front of the ship is a panel with five buttons, four to send other ships in, two at a time, and the final to send the user in. The scene lasts as long as the user chooses, ending as soon as the "Self Launch" button is pressed, but the intended progression is to press them in the following order: Squadron One, Two, Three, Four, then Self-Launch.</p>
+
+<h3>
+<a id="moon-landing-scene-christian" class="anchor" href="#moon-landing-scene-christian" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Moon Landing Scene (Christian)</h3>
+
+<p>(TODO)</p>
+
+<h2>
+<a id="technical-breakdown" class="anchor" href="#technical-breakdown" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Technical Breakdown</h2>
+
+<p>Here are all the technical components of the project. As before, each scene will be broken down to explain individual pieces.</p>
+
+<h3>
+<a id="moon-orbit-scene-brett-1" class="anchor" href="#moon-orbit-scene-brett-1" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Moon Orbit Scene (Brett)</h3>
+
+<p>Skybox: "Between Moon and Earth 2" (Stagit East - Earth &amp; Planets Skyboxes)</p>
+
+<p>Space fighters: "Omega Fighters" (Omega Creative - Sci-Fi Spaceship)</p>
+
+<ul>
+<li>Animations did not come with this package, I created two unique to each ship (18 total).</li>
+</ul>
+
+<p>Asteroids: "Asteroid Set" (solarforge - Asteroid Set)</p>
+
+<ul>
+<li>Three sizes of asteroids: small, medium and large, each with random animation</li>
+<li>Animations did not come with this package, I created three rotations (one for each axis)</li>
+<li>Broken down into Asteroid Field (cube-shaped area around fighters), and Asteroid Belt around moon</li>
+</ul>
+
+<p>GUI: Heavily modified version of the GUI from "Intro" (Unity - VR Samples)</p>
+
+<ul>
+<li>Launch panels are clickable sliders with preset duration (30 for squadrons, 0.00001 for self launch)</li>
+<li>Pressing panels swaps space fighter animations (hover -&gt; launch), and plays audio clip when complete</li>
+</ul>
+
+<p>Lighting: "Sun1" (Stagit East - Earth &amp; Planets Skyboxes)</p>
+
+<p>Audio: Mirror's Edge Soundtrack - Introduction by Solar Fields</p>
+
+<h3>
+<a id="moon-landing-scene-christian-1" class="anchor" href="#moon-landing-scene-christian-1" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Moon Landing Scene (Christian)</h3>
+
+<p>(TODO)</p>
+
+<h3>
+<a id="links" class="anchor" href="#links" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Links</h3>
+
+<p>Video Link: (TODO)
+SpaceVR: <a href="http://www.spacevr.co/#spacevr">http://www.spacevr.co/#spacevr</a></p>
 
       <footer class="site-footer">
         <span class="site-footer-owner"><a href="https://github.com/brettbelliveau/UFVR-Project-1">UFVR Project One</a> is maintained by <a href="https://github.com/brettbelliveau">brettbelliveau</a>.</span>
