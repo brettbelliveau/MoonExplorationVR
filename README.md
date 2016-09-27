@@ -1,5 +1,5 @@
-# MarsExplorationVR
-Mars exploration scene built using Unity3D.
+# MoonExplorationVR
+Moon exploration scene built using Unity3D.
 UFVR Website: https://ufvr2016.wordpress.com/
 Dropbox Download: https://www.dropbox.com/s/f3sdk95fmqro6oy/ProjectOnePackage.unitypackage?dl=1
 
